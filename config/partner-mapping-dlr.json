@@ -1,0 +1,16 @@
+{
+  "BPNLYJ7XQDLOX12U": "did:web:vision-x-api.base-x-ecosystem.org:connectors:joao-connector",
+  "BPNLNWF14QKMQ9QE": "did:web:vision-x-api.base-x-ecosystem.org:connectors:jin-conn",
+  "BPNLE56YR9OQVTA3": "did:web:vision-x-api.base-x-ecosystem.org:connectors:lea-conn",
+  "BPNLD6VP3E63ZBUT": "did:web:vision-x-api.base-x-ecosystem.org:connectors:alice-http",
+  "BPNLR8PGXQE9ATZM": "did:web:vision-x-api.base-x-ecosystem.org:connectors:dlr-rm-test",
+  "BPNLUX7IJ8ZXGQJO": "did:web:vision-x-api.base-x-ecosystem.org:connectors:sotec-test-connector",
+  "BPNL958KZJ1UZUFB": "did:web:vision-x-api.base-x-ecosystem.org:connectors:maxummertest1234567",
+  "BPNLLZU25TRYWLWA": "did:web:vision-x-api.base-x-ecosystem.org:connectors:vdma-connector",
+  "BPNLM67H9AVUVPTD": "did:web:vision-x-api.base-x-ecosystem.org:connectors:dlr-rox-conn",
+  "BPNL0BLK8KFX0QZE": "did:web:vision-x-api.base-x-ecosystem.org:connectors:intrinsicbucket",
+  "BPNL23A4WB51ILEK": "did:web:vision-x-api.base-x-ecosystem.org:connectors:httptestcon",
+  "BPNLIZCV0GIM1N0K": "did:web:vision-x-api.base-x-ecosystem.org:connectors:dlr-rox-ki-aws",
+  "BPNLPMOX3Q8EO06P": "did:web:vision-x-api.base-x-ecosystem.org:connectors:rox-test-connector",
+  "BPNLLD4SVVDD7H00": "did:web:vision-x-api.base-x-ecosystem.org:connectors:wuerth2026"
+}
