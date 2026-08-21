@@ -1,5 +1,7 @@
 # KIT framework deployment
 
+Information and user manual: https://rox-architecture.github.io/kit-user-manual/
+
 ## Run with GUI
 
 ```bash
