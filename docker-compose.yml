@@ -46,8 +46,8 @@ services:
       start_period: 10s
     volumes:
       - execution_artifacts:/artifacts
-      #- /var/run/docker.sock:/var/run/docker.sock
-      - /run/user/1002/docker.sock:/var/run/docker.sock
+      - /var/run/docker.sock:/var/run/docker.sock 
+      #- /run/user/1002/docker.sock:/var/run/docker.sock  # if you are using rootless docker
 
   worker:
     <<: *backend-base
@@ -63,8 +63,8 @@ services:
       CELERY_WORKER_CONCURRENCY: ${CELERY_WORKER_CONCURRENCY:-4}
     volumes:
       - ./artifacts:/artifacts
-      #- /var/run/docker.sock:/var/run/docker.sock
-      - /run/user/1002/docker.sock:/var/run/docker.sock
+      - /var/run/docker.sock:/var/run/docker.sock
+      #- /run/user/1002/docker.sock:/var/run/docker.sock # if you are using rootless docker
 
   db:
     image: postgres:16
