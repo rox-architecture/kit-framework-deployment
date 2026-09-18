@@ -116,6 +116,8 @@ services:
     ports:
       - "${KIT_FRONTEND_PORT:-8088}:80"
     restart: unless-stopped
+    volumes:
+      - ${ARTIFACT_HOST_ROOT}:/artifacts:ro
 
 volumes:
   workflow_pg_data:
